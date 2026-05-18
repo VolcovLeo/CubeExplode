@@ -1,56 +1,50 @@
+using System.IO;
 using UnityEngine;
 
 public class CubeSpawner : MonoBehaviour
 {
     [SerializeField] private Cube _cubePrefab;
+    [SerializeField] private ExplosionService _explosionService;
 
-    [SerializeField] private ExplosionForce _explosionForce;
+    [SerializeField] private int _minSpawn = 2;
+    [SerializeField] private int _maxSpawn = 6;
 
-    [SerializeField] private int _minSpawnCount = 2;
-    [SerializeField] private int _maxSpawnCount = 6;
-
-    public void TrySplit(Cube cube)
+    public void Split(Cube cube)
     {
         float cubeDivider = 2f;
-        bool isSplit =Random.value <= cube.SplitChance;
+
+        if (Random.value > cube.SplitChance)
+        {
+            Destroy(cube.gameObject);
+            return;
+        }
+
+        int count = Random.Range(_minSpawn, _maxSpawn + 1);
 
         Vector3 position = cube.transform.position;
         Vector3 scale = cube.transform.localScale;
 
-        if (isSplit)
+        for (int i = 0; i < count; i++)
         {
-            int count = Random.Range(_minSpawnCount, _maxSpawnCount + 1);
-
-            for (int i = 0; i < count; i++)
-            {
-                CreateCube(position, scale, cube.SplitChance / cubeDivider);
-            }
+            SpawnCube(position, scale, cube.SplitChance / cubeDivider);
         }
 
         Destroy(cube.gameObject);
     }
 
-    private void CreateCube(Vector3 position, Vector3 scale, float splitChance)
+    private void SpawnCube(Vector3 position, Vector3 scale, float chance)
     {
         float cubeDivider = 2f;
 
-        Vector3 randomOffset = Random.insideUnitSphere;
+        Vector3 offset = Random.insideUnitSphere;
 
-        Cube newCube = Instantiate(_cubePrefab, position + randomOffset, Random.rotationUniform);
+        Cube newCube = Instantiate(_cubePrefab, position + offset, Random.rotationUniform);
 
         newCube.transform.localScale = scale / cubeDivider;
+        newCube.Init(chance);
 
-        newCube.Initialize(splitChance);
+        newCube.Renderer.material.color = new Color(Random.value, Random.value, Random.value);
 
-        SetRandomColor(newCube);
-
-        _explosionForce.Apply(newCube.GetComponent<Rigidbody>(), position);
-    }
-
-    private void SetRandomColor(Cube cube)
-    {
-        Renderer cubeRenderer = cube.GetComponent<Renderer>();
-
-        cubeRenderer.material.color = new Color(Random.value, Random.value, Random.value);
+        _explosionService.Explode(newCube.Rigidbody, position);
     }
 }

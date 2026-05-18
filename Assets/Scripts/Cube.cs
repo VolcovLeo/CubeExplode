@@ -1,13 +1,24 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Renderer))]
+[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(Collider))]
+
 public class Cube : MonoBehaviour
 {
-    private float _splitChance = 1f;
+    public Renderer Renderer { get; private set; }
+    public Rigidbody Rigidbody { get; private set; }
 
-    public float SplitChance => _splitChance;
+    public float SplitChance { get; private set; } = 1f;
 
-    public void Initialize(float splitChance)
+    private void Awake()
     {
-        _splitChance = splitChance;
+        Renderer = GetComponent<Renderer>();
+        Rigidbody = GetComponent<Rigidbody>();
+    }
+
+    public void Init(float splitChance)
+    {
+        SplitChance = splitChance;
     }
 }

@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "S:\\Unity\\Cube Explode\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{875B2795-8A92-AE5E-6C19-E31E88353C39}|Assembly-CSharp.csproj|s:\\unity\\cube explode\\assets\\scripts\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{875B2795-8A92-AE5E-6C19-E31E88353C39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{875B2795-8A92-AE5E-6C19-E31E88353C39}|Assembly-CSharp.csproj|S:\\Unity\\Cube Explode\\assets\\scripts\\cubeclickreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{875B2795-8A92-AE5E-6C19-E31E88353C39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cubeclickreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{875B2795-8A92-AE5E-6C19-E31E88353C39}|Assembly-CSharp.csproj|s:\\unity\\cube explode\\assets\\scripts\\cubesplithandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{875B2795-8A92-AE5E-6C19-E31E88353C39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cubesplithandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{875B2795-8A92-AE5E-6C19-E31E88353C39}|Assembly-CSharp.csproj|S:\\Unity\\Cube Explode\\assets\\scripts\\cubespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{875B2795-8A92-AE5E-6C19-E31E88353C39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cubespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{875B2795-8A92-AE5E-6C19-E31E88353C39}|Assembly-CSharp.csproj|S:\\Unity\\Cube Explode\\assets\\scripts\\cubeexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{875B2795-8A92-AE5E-6C19-E31E88353C39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cubeexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{875B2795-8A92-AE5E-6C19-E31E88353C39}|Assembly-CSharp.csproj|S:\\Unity\\Cube Explode\\assets\\scripts\\cuberaycaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{875B2795-8A92-AE5E-6C19-E31E88353C39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cuberaycaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{875B2795-8A92-AE5E-6C19-E31E88353C39}|Assembly-CSharp.csproj|S:\\Unity\\Cube Explode\\assets\\scripts\\cubeclickreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{875B2795-8A92-AE5E-6C19-E31E88353C39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cubeclickreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{875B2795-8A92-AE5E-6C19-E31E88353C39}|Assembly-CSharp.csproj|S:\\Unity\\Cube Explode\\assets\\scripts\\cubeexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{875B2795-8A92-AE5E-6C19-E31E88353C39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cubeexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{875B2795-8A92-AE5E-6C19-E31E88353C39}|Assembly-CSharp.csproj|S:\\Unity\\Cube Explode\\assets\\scripts\\cubespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{875B2795-8A92-AE5E-6C19-E31E88353C39}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cubespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,31 +34,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "Cube.cs",
+              "DocumentMoniker": "S:\\Unity\\Cube Explode\\Assets\\Scripts\\Cube.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Cube.cs",
+              "ToolTip": "S:\\Unity\\Cube Explode\\Assets\\Scripts\\Cube.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Cube.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T05:01:45.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CubeClickReader.cs",
               "DocumentMoniker": "S:\\Unity\\Cube Explode\\Assets\\Scripts\\CubeClickReader.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CubeClickReader.cs",
               "ToolTip": "S:\\Unity\\Cube Explode\\Assets\\Scripts\\CubeClickReader.cs",
               "RelativeToolTip": "Assets\\Scripts\\CubeClickReader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAN/SURBVEhL7VTPbxNHFH4zu46D45jwww4STlzVqUFZQSNKI3FpiSqRVIpIqbKbS2/ceolkDnDMP4BRLlwQSlWpUtkEUSQkMOJguFRUatUDtqrIBppswGRJok1MyjreebwZGwQcuHGhfNLO7n7zzZuZ770Z\u002BIgPH0w284/m49VaNT5TnoG7j\u002B/Caq0KvdFeMD8zYWzfcR\u002B8sJPJZHw1gnDxr4txLdBi3nbPmcxM\u002BtPz0\u002BHtXjgZaKH1k4dOui2ZApeN0IQpdGGDELYGYAPndsCZLTRuCxHK1dvrPUrdAgM0hRbkIhsRxbeC5ySvBK9Bl83V8pXEltgyOkId0BNNFuqiXuzrSltr/lr8xsJ1JgDDSt1C/t98AgD7WKPJX1u6FdaQpemT\u002BDehLPpi5vOpaCh65nD3l05XW9c50LQbQgS5B979I0u1RZcjWNb\u002BH5aljb8UZ\u002BCx/\u002BRHmmAEkWU5x7IAlqbV5wBZvjPccb5/5wBEIerOTcy5yiKn5kDZKzv3Vu9lOQvZsfWYIwI8VfHKsyvPn0K1vqpsYRxsoTObhli0tiTjeJaC263g0i5LILMpqM11UHYpi8gS8IO6/8fS75X8xK2XSSobF/bNcs5KGjSWGcMSIsyh7GHwNSAY9HGTLHAp\u002BG5iLeKLiOI2UidNXmpKCTumO6dosMmEsNayz4qSexfe1u\u002BcjvY3dwJza5MbUy2ZgrLofeKdOyCLjpJFBllkTx46bTyqLR/9\u002BZ\u002BfYHmz2rSIwSzJyCJ4ZVFEj9w\u002BuHsAYm3RwqUTlwsqB\u002B16O2hMDxu7jPRXd4ZktawnYonk9QfXxp9t1YaQs4IIuMEZJVoOQIhTGwPEYXLbpyRTuTL6B4MBTzBKlBA0MUBBWZTp2g8Hdh1I0sxnG9AwZXBZpqnOT6xtWkSWnDTTZigs\u002BTRXjg5qLCt3LcsVGC5KXvYHAizcpqqtWUXf9X0PfuN5mOq\u002B72/3T9PZcPoPdw8eScVS8YH4gIuCQesKUBU2ccWkN/p00Cq/mpeL47\u002BNIx00eZW4l07MFhchL2UKagfDvcPuYPdgaeW/ldJD72HCq3tDCxsL7p6OPaWx9FhlNDP66h6SONYz4h5LfVv55tMRxY/uHfWHUyMVySvBa1AT6KjblGSLVmoJxq0AmcWZsAQlrsFEti3etqjULyEPHIrsZuem4uWlF6A4JXnV/xH/JwC8AP7Zo1VCd3UMAAAAAElFTkSuQmCC",
-              "WhenOpened": "2026-05-19T05:01:37.985Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T05:01:43.511Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CubeSplitHandler.cs",
               "DocumentMoniker": "S:\\Unity\\Cube Explode\\Assets\\Scripts\\CubeSplitHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CubeSplitHandler.cs",
               "ToolTip": "S:\\Unity\\Cube Explode\\Assets\\Scripts\\CubeSplitHandler.cs",
               "RelativeToolTip": "Assets\\Scripts\\CubeSplitHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T05:01:37.989Z",
+              "WhenOpened": "2026-05-19T05:01:43.514Z",
               "EditorCaption": ""
             },
             {
@@ -65,33 +83,36 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\CubeRaycaster.cs",
               "ToolTip": "S:\\Unity\\Cube Explode\\Assets\\Scripts\\CubeRaycaster.cs",
               "RelativeToolTip": "Assets\\Scripts\\CubeRaycaster.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAN/SURBVEhL7VTPbxNHFH4zu46D45jwww4STlzVqUFZQSNKI3FpiSqRVIpIqbKbS2/ceolkDnDMP4BRLlwQSlWpUtkEUSQkMOJguFRUatUDtqrIBppswGRJok1MyjreebwZGwQcuHGhfNLO7n7zzZuZ770Z\u002BIgPH0w284/m49VaNT5TnoG7j\u002B/Caq0KvdFeMD8zYWzfcR\u002B8sJPJZHw1gnDxr4txLdBi3nbPmcxM\u002BtPz0\u002BHtXjgZaKH1k4dOui2ZApeN0IQpdGGDELYGYAPndsCZLTRuCxHK1dvrPUrdAgM0hRbkIhsRxbeC5ySvBK9Bl83V8pXEltgyOkId0BNNFuqiXuzrSltr/lr8xsJ1JgDDSt1C/t98AgD7WKPJX1u6FdaQpemT\u002BDehLPpi5vOpaCh65nD3l05XW9c50LQbQgS5B979I0u1RZcjWNb\u002BH5aljb8UZ\u002BCx/\u002BRHmmAEkWU5x7IAlqbV5wBZvjPccb5/5wBEIerOTcy5yiKn5kDZKzv3Vu9lOQvZsfWYIwI8VfHKsyvPn0K1vqpsYRxsoTObhli0tiTjeJaC263g0i5LILMpqM11UHYpi8gS8IO6/8fS75X8xK2XSSobF/bNcs5KGjSWGcMSIsyh7GHwNSAY9HGTLHAp\u002BG5iLeKLiOI2UidNXmpKCTumO6dosMmEsNayz4qSexfe1u\u002BcjvY3dwJza5MbUy2ZgrLofeKdOyCLjpJFBllkTx46bTyqLR/9\u002BZ\u002BfYHmz2rSIwSzJyCJ4ZVFEj9w\u002BuHsAYm3RwqUTlwsqB\u002B16O2hMDxu7jPRXd4ZktawnYonk9QfXxp9t1YaQs4IIuMEZJVoOQIhTGwPEYXLbpyRTuTL6B4MBTzBKlBA0MUBBWZTp2g8Hdh1I0sxnG9AwZXBZpqnOT6xtWkSWnDTTZigs\u002BTRXjg5qLCt3LcsVGC5KXvYHAizcpqqtWUXf9X0PfuN5mOq\u002B72/3T9PZcPoPdw8eScVS8YH4gIuCQesKUBU2ccWkN/p00Cq/mpeL47\u002BNIx00eZW4l07MFhchL2UKagfDvcPuYPdgaeW/ldJD72HCq3tDCxsL7p6OPaWx9FhlNDP66h6SONYz4h5LfVv55tMRxY/uHfWHUyMVySvBa1AT6KjblGSLVmoJxq0AmcWZsAQlrsFEti3etqjULyEPHIrsZuem4uWlF6A4JXnV/xH/JwC8AP7Zo1VCd3UMAAAAAElFTkSuQmCC",
-              "WhenOpened": "2026-05-19T05:01:37.993Z"
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T05:01:43.518Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CubeExplosion.cs",
               "DocumentMoniker": "S:\\Unity\\Cube Explode\\Assets\\Scripts\\CubeExplosion.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CubeExplosion.cs",
               "ToolTip": "S:\\Unity\\Cube Explode\\Assets\\Scripts\\CubeExplosion.cs",
               "RelativeToolTip": "Assets\\Scripts\\CubeExplosion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAN/SURBVEhL7VTPbxNHFH4zu46D45jwww4STlzVqUFZQSNKI3FpiSqRVIpIqbKbS2/ceolkDnDMP4BRLlwQSlWpUtkEUSQkMOJguFRUatUDtqrIBppswGRJok1MyjreebwZGwQcuHGhfNLO7n7zzZuZ770Z\u002BIgPH0w284/m49VaNT5TnoG7j\u002B/Caq0KvdFeMD8zYWzfcR\u002B8sJPJZHw1gnDxr4txLdBi3nbPmcxM\u002BtPz0\u002BHtXjgZaKH1k4dOui2ZApeN0IQpdGGDELYGYAPndsCZLTRuCxHK1dvrPUrdAgM0hRbkIhsRxbeC5ySvBK9Bl83V8pXEltgyOkId0BNNFuqiXuzrSltr/lr8xsJ1JgDDSt1C/t98AgD7WKPJX1u6FdaQpemT\u002BDehLPpi5vOpaCh65nD3l05XW9c50LQbQgS5B979I0u1RZcjWNb\u002BH5aljb8UZ\u002BCx/\u002BRHmmAEkWU5x7IAlqbV5wBZvjPccb5/5wBEIerOTcy5yiKn5kDZKzv3Vu9lOQvZsfWYIwI8VfHKsyvPn0K1vqpsYRxsoTObhli0tiTjeJaC263g0i5LILMpqM11UHYpi8gS8IO6/8fS75X8xK2XSSobF/bNcs5KGjSWGcMSIsyh7GHwNSAY9HGTLHAp\u002BG5iLeKLiOI2UidNXmpKCTumO6dosMmEsNayz4qSexfe1u\u002BcjvY3dwJza5MbUy2ZgrLofeKdOyCLjpJFBllkTx46bTyqLR/9\u002BZ\u002BfYHmz2rSIwSzJyCJ4ZVFEj9w\u002BuHsAYm3RwqUTlwsqB\u002B16O2hMDxu7jPRXd4ZktawnYonk9QfXxp9t1YaQs4IIuMEZJVoOQIhTGwPEYXLbpyRTuTL6B4MBTzBKlBA0MUBBWZTp2g8Hdh1I0sxnG9AwZXBZpqnOT6xtWkSWnDTTZigs\u002BTRXjg5qLCt3LcsVGC5KXvYHAizcpqqtWUXf9X0PfuN5mOq\u002B72/3T9PZcPoPdw8eScVS8YH4gIuCQesKUBU2ccWkN/p00Cq/mpeL47\u002BNIx00eZW4l07MFhchL2UKagfDvcPuYPdgaeW/ldJD72HCq3tDCxsL7p6OPaWx9FhlNDP66h6SONYz4h5LfVv55tMRxY/uHfWHUyMVySvBa1AT6KjblGSLVmoJxq0AmcWZsAQlrsFEti3etqjULyEPHIrsZuem4uWlF6A4JXnV/xH/JwC8AP7Zo1VCd3UMAAAAAElFTkSuQmCC",
-              "WhenOpened": "2026-05-19T05:01:37.993Z"
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T05:01:43.518Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "CubeSpawner.cs",
               "DocumentMoniker": "S:\\Unity\\Cube Explode\\Assets\\Scripts\\CubeSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CubeSpawner.cs",
               "ToolTip": "S:\\Unity\\Cube Explode\\Assets\\Scripts\\CubeSpawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\CubeSpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAN/SURBVEhL7VTPbxNHFH4zu46D45jwww4STlzVqUFZQSNKI3FpiSqRVIpIqbKbS2/ceolkDnDMP4BRLlwQSlWpUtkEUSQkMOJguFRUatUDtqrIBppswGRJok1MyjreebwZGwQcuHGhfNLO7n7zzZuZ770Z\u002BIgPH0w284/m49VaNT5TnoG7j\u002B/Caq0KvdFeMD8zYWzfcR\u002B8sJPJZHw1gnDxr4txLdBi3nbPmcxM\u002BtPz0\u002BHtXjgZaKH1k4dOui2ZApeN0IQpdGGDELYGYAPndsCZLTRuCxHK1dvrPUrdAgM0hRbkIhsRxbeC5ySvBK9Bl83V8pXEltgyOkId0BNNFuqiXuzrSltr/lr8xsJ1JgDDSt1C/t98AgD7WKPJX1u6FdaQpemT\u002BDehLPpi5vOpaCh65nD3l05XW9c50LQbQgS5B979I0u1RZcjWNb\u002BH5aljb8UZ\u002BCx/\u002BRHmmAEkWU5x7IAlqbV5wBZvjPccb5/5wBEIerOTcy5yiKn5kDZKzv3Vu9lOQvZsfWYIwI8VfHKsyvPn0K1vqpsYRxsoTObhli0tiTjeJaC263g0i5LILMpqM11UHYpi8gS8IO6/8fS75X8xK2XSSobF/bNcs5KGjSWGcMSIsyh7GHwNSAY9HGTLHAp\u002BG5iLeKLiOI2UidNXmpKCTumO6dosMmEsNayz4qSexfe1u\u002BcjvY3dwJza5MbUy2ZgrLofeKdOyCLjpJFBllkTx46bTyqLR/9\u002BZ\u002BfYHmz2rSIwSzJyCJ4ZVFEj9w\u002BuHsAYm3RwqUTlwsqB\u002B16O2hMDxu7jPRXd4ZktawnYonk9QfXxp9t1YaQs4IIuMEZJVoOQIhTGwPEYXLbpyRTuTL6B4MBTzBKlBA0MUBBWZTp2g8Hdh1I0sxnG9AwZXBZpqnOT6xtWkSWnDTTZigs\u002BTRXjg5qLCt3LcsVGC5KXvYHAizcpqqtWUXf9X0PfuN5mOq\u002B72/3T9PZcPoPdw8eScVS8YH4gIuCQesKUBU2ccWkN/p00Cq/mpeL47\u002BNIx00eZW4l07MFhchL2UKagfDvcPuYPdgaeW/ldJD72HCq3tDCxsL7p6OPaWx9FhlNDP66h6SONYz4h5LfVv55tMRxY/uHfWHUyMVySvBa1AT6KjblGSLVmoJxq0AmcWZsAQlrsFEti3etqjULyEPHIrsZuem4uWlF6A4JXnV/xH/JwC8AP7Zo1VCd3UMAAAAAElFTkSuQmCC",
-              "WhenOpened": "2026-05-18T12:19:35.463Z"
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T05:01:43.519Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -166,8 +166,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0385d3ce78b3834eb630067c8b63fc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _force: 5
-  _radius: 3
+  _baseForce: 100
+  _baseRadius: 2
 --- !u!1 &657224477
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,6 +444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _raycaster: {fileID: 2120578970}
+  _interactionButton: 0
 --- !u!4 &863479646
 Transform:
   m_ObjectHideFlags: 0

@@ -7,9 +7,7 @@ using UnityEngine;
 public class Cube : MonoBehaviour
 {
     public Renderer Renderer { get; private set; }
-
     public Rigidbody Rigidbody { get; private set; }
-
     public float SplitChance { get; private set; } = 1f;
 
     private void Awake()

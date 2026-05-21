@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class CubeExplosion : MonoBehaviour
 {
+    private const float BaseExplosionMultiplier = 1f;
+
     [SerializeField] private float _baseForce = 100f;
     [SerializeField] private float _baseRadius = 2f;
 
@@ -9,11 +11,10 @@ public class CubeExplosion : MonoBehaviour
     {
         Vector3 position = cube.transform.position;
 
-        float BaseExplosionMultiplier = 1f;
         float cubeSize = cube.transform.localScale.x;
-        float multiplier = BaseExplosionMultiplier / cubeSize;
-        float explosionForce = _baseForce * multiplier;
-        float explosionRadius = _baseRadius * multiplier;
+        float sizeMultiplier = BaseExplosionMultiplier / cubeSize;
+        float explosionForce = _baseForce * sizeMultiplier;
+        float explosionRadius = _baseRadius * sizeMultiplier;
 
         Collider[] colliders = Physics.OverlapSphere(position, explosionRadius);
 
